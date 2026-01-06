@@ -1,6 +1,7 @@
 __pycache__/
 *.pyc
 .env
+prepare_test.py
 grades.json
 *.log
 任务描述.txt

@@ -55,6 +55,14 @@
 > **如何获取 QQ SMTP 授权码**:
 > 登录 QQ 邮箱网页版 -> 设置 -> 账号 -> 向下滚动找到 "POP3/IMAP/SMTP/Exchange/CardDAV/CalDAV服务" -> 开启服务 -> 生成授权码。
 
+### 2.5. 开启写入权限 (重要)
+**这是程序能够自动更新成绩记录文件的关键步骤，请务必执行：**
+1.  在仓库页面点击 **Settings**。
+2.  在左侧栏点击 **Actions** -> **General**。
+3.  向下滚动找到 **Workflow permissions** 区域。
+4.  选中 **Read and write permissions**。
+5.  点击 **Save** 保存。
+
 ### 3. 启动监测
 配置完成后，GitHub Actions 默认会按照计划（每小时）自动运行。
 你可以手动触发第一次运行来初始化数据：
